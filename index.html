@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css"> -->
-    <script src="/assets/js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
@@ -19,30 +17,28 @@
             <header>
                 <nav class="row">
                     <div class="logo">
-                        <img src="/assets/images/h-logo.png" width="40px" height="auto">
+                        <img id="bar-logo" src="/assets/images/h-logo.png" alt="herby's logo">
                     </div>
                     <div class="navigation">
-                        <a><i class="far fa-home"></i></a>
-                        <a><i class="far fa-user"></i></a> <!-- about -->
+                        <div><a><i class="fas fa-home" title="home"></i></a></div>
+                        <div><a><i class="far fa-user" title="about"></i></a></div>
+                        <div><a><i class="fas fa-wrench" title="skills"></i></a></div>
+                        <div><a><i class="fas fa-briefcase" title="projects"></i></a></div>
+                        <div><a><i class="far fa-envelope" title="contact"></i></a></div>
                     </div>
                     <div class="social-media">
-                        <div><i class="fab fa-twitter"></i></div>
-                        <div><i class="fab fa-github"></i></div>
-                        <div><i class="fab fa-linkedin"></i></div>
+                        <div><i class="fab fa-twitter" title="twitter"></i></div>
+                        <div><i class="fab fa-github" title="github"></i></div>
+                        <div><i class="fab fa-linkedin" title="linkedin"></i></div>
                     </div>
-                    <!-- <h1>Home</h1> -->
-                    <!-- <h1>Projects</h1> -->
-                    <!-- <h1>Skills</h1> -->
-                    <!-- <h1>Contact</h1> -->
-                    <!-- <h1>hello</h1> -->
                 </nav>
             </header>
         </div>
         <div class="main">
-            <h2>&zwnj;< &zwnj;html&zwnj; >&zwnj;</h2>
-            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;< &zwnj;body&zwnj; >&zwnj;</h2>
+            <h2>&zwnj;&lt; &zwnj;html&zwnj; >&zwnj;</h2>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;&lt; &zwnj;body&zwnj; >&zwnj;</h2>
             <br><br>
-            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;< &zwnj;em&zwnj; >&zwnj;</h2>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;&lt; &zwnj;em&zwnj; >&zwnj;</h2>
             <div class="text-container">
                 <div class="blast-root">
                     <span class="blast" aria-hidden="true" style="opacity: 1;">H</span>
@@ -53,7 +49,7 @@
                     <span class="blast" aria-hidden="true" style="opacity: 1;">'</span>
                     <span class="blast" aria-hidden="true" style="opacity: 1;">m</span>
                     <span>&nbsp;</span>
-                    <img src="/assets/images/h-logo-resized.png" width="50px" height="auto">
+                    <img id="text-logo" src="/assets/images/h-logo-resized.png" alt="herby's logo">
                     <span class="blast" aria-hidden="true" style="opacity: 1;">e</span>
                     <span class="blast" aria-hidden="true" style="opacity: 1;">r</span>
                     <span class="blast" aria-hidden="true" style="opacity: 1;">b</span>
@@ -79,18 +75,18 @@
                     <h2>Full Stack Web Developer / Vue JS</h2>
                 </div>
                 <div class="contact">
-                    contact me
+                    <a href="#" class="button">Contact Me</a>
                 </div>
             </div>
-            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;< &zwnj;/em&zwnj; >&zwnj;</h2>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;&lt; &zwnj;/em&zwnj; >&zwnj;</h2>
             <br>
-            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;< &zwnj;/&zwnj;body&zwnj; >&zwnj;</h2>
-            <h2>&zwnj;< &zwnj;/&zwnj;html&zwnj; >&zwnj;</h2>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&zwnj;&lt; &zwnj;/&zwnj;body&zwnj; >&zwnj;</h2>
+            <h2>&zwnj;&lt; &zwnj;/&zwnj;html&zwnj; >&zwnj;</h2>
         </div>
         <div class="banner">
-            <img src="/assets/images/h-logo-resized.png" style="opacity:0.69;filter:alpha(opacity=40)">
+            <img src="/assets/images/h-logo-resized.png" alt="herby's logo" style="opacity:0.69;filter:alpha(opacity=40)">
         </div>
-        
     </div>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
