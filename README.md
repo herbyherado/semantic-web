@@ -5,3 +5,5 @@ Create a static web page using HTML, CSS, and JavaScript. The webpage can follow
 HTML markup writing should follow as per W3C standards (https://www.w3.org/standards/semanticweb/)
 
 Minimize all warning occurences and ensure that the webpage is free from errors.
+
+![alt text](/web-semantic.png)
