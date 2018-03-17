@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Open+Sans:300,400,600|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
+
+html, body {
+    margin: 0;
+    top: 0;
+    background-color: rgb(37,38,39);
+}
+
+.divider {
+    display: grid;
+    grid-template-columns: 80px auto auto;
+}
+
+header {
+    /* padding:20px; */
+    background-color: rgb(24,24,24);
+    height: 100%;
+    /* width: 50px; */
+    padding: 5px 10px;
+    margin: 0 0 10px 0;
+    float: left;
+}
+
+nav {
+    color: rgb(76,76,76);
+    /* font-family: 'Hel' */
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+h1:hover, a:hover {
+    color: rgb(45,252,216);
+    -webkit-transition: color 0.8s ease-out;
+    -moz-transition: color 0.8s ease-out;
+    -o-transition: color 0.8s ease-out;
+    transition: color 0.8s ease-out;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'La Belle Aurore', cursive;
+    color: rgb(81,81,81);
+}
+
+
+.banner > img {
+    /* margin-top: -20px; */
+    margin-left: 200px;
+    width: 380px;
+    height: auto;
+    transform: rotate(-25deg);
+    overflow: hidden;
+    z-index: -1;
+}
