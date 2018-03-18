@@ -6,4 +6,4 @@ HTML markup writing should follow as per W3C standards (https://www.w3.org/stand
 
 Minimize all warning occurences and ensure that the webpage is free from errors.
 
-![alt text](/web-semantic.png)
+![alt text](/semantic-web.png)
